@@ -1,0 +1,39 @@
+package Anshul;
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+@SpringBootApplication
+public class WebApp4Application {
+
+	public static void main(String[] args) {
+		ApplicationContext conn = SpringApplication.run(WebApp4Application.class, args);
+		
+		// Dependency Injection in Spring
+		
+		// When we create a object , we have to take care of it, but what if spring creates a objects for us
+		
+		// In normal way -->
+		
+		Alien a1 = new Alien();
+		
+		a1.code();
+		
+		// Spring creates a object for us -->
+		
+		// Step-1 --> Get an object of application context, its an interface that extends springApplication
+		
+		// Step-2 --> in the context their is a method called getBean()
+		
+		Alien obj = conn.getBean(Alien.class);
+		
+		obj.code();
+		
+		
+		
+		
+	}
+
+}

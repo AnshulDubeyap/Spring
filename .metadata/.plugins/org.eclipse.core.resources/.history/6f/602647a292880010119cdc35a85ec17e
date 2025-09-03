@@ -1,0 +1,17 @@
+package com.Anshul.SpringApp_1;
+
+import org.springframework.beans.factory.BeanFactory;
+
+public class App 
+{
+	
+	// Creating a Spring Application from Scratch
+	
+    public static void main( String[] args )
+    {
+        // Step-1--> add spring context dependency in POM
+    	// Step-2--> get a beanFactory object, but beanFactory is a interface, thus we have initialize it by XmlBeanFactory Class
+    	
+    	BeanFactory factory = XmlBeanFactory(resource);
+    }
+}

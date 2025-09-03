@@ -1,0 +1,12 @@
+package com.Anshul.SpringApp_1;
+
+public class App 
+{
+	
+	// Creating a Spring Application from Scratch
+	
+    public static void main( String[] args )
+    {
+        // Step-1--> 
+    }
+}

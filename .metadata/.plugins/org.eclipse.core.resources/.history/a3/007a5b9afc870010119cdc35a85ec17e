@@ -1,0 +1,5 @@
+spring.application.name=WebApp-2
+spring.datasource.url=jdbc:postgresql://localhost:5433/springRest
+spring.datasource.username=postgres
+spring.datasource.password=Anshul@667
+spring.datasource.driver-class-name=org.postgresql.Driver

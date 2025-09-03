@@ -1,0 +1,8 @@
+package com.Anshul.SpringApp_2;
+
+public class Laptop {
+	public void compile() {
+		System.out.println("Compiling...");
+	}
+
+}

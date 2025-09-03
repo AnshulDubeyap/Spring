@@ -1,0 +1,5 @@
+spring.application.name=WebApp-2
+spring.datasource.dbcp2.url=jdbc:postgresql://localhost:5433/springRest
+spring.datasource.dbcp2.username=postgres
+spring.datasource.dbcp2.password=Anshul@667
+spring.datasource.dbcp2.driver-class-name=org.postgresql.Driver

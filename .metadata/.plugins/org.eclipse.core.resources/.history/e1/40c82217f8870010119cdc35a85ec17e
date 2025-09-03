@@ -1,0 +1,18 @@
+package Anshul;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+// Whenever we want to create a rest resource, annotate it with rest controller
+@RestController
+public class AlienResource {
+	
+	public List<Alien> getAliens(){
+		
+		List<Alien> aliens = new ArrayList<>();
+		
+	}
+
+}

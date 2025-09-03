@@ -1,0 +1,50 @@
+package com.Anshul.SpringApp_1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+
+    // Creating a Spring Application from Scratch
+    
+    public static void main(String[] args) {
+        // Step 1 → Add the Spring Context dependency in your POM file.
+        // Step 2 → Create an ApplicationContext object. but it is a interface, thus we have have to use ClassPathXmlApplicationContext class
+    	// Step 4 → Create a spring xml file 
+        // Step 3 → Load the configuration from spring.xml (must be in src/main/resources).
+        
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        
+        // Step 4 → Retrieve the bean using its id from spring.xml
+        Alien obj = (Alien) context.getBean("alien");
+        
+        // Step 5 → Use the bean
+        obj.code();
+        
+        
+        // Singleton And Prototype
+        
+        // --> Lets declare a age variable in alien
+        
+        System.out.println(obj.age); // output = 0; (default)
+        
+        obj.age = 18;
+        
+        System.out.println(obj.age); // output = 18
+        
+        // Lets create a new object
+        
+        Alien obj2 = (Alien) context.getBean("alien");
+        
+        System.out.println(obj2.age); // output = 18 , output = 0 in prototype (new object created)
+        
+        // This means every new object we ask spring to create, it creates only reference that points to same object
+        // By default all objects created by spring are singleton
+        // But there is a option for us if we want different object created every time we ask spring to create a object
+        // this is done by --> in the sprint.xml, their is another parameter called scope, by default it is singleton, change it to prototype
+        
+        // --> In singleton, even if we don't ask for object spring will create it , but in prototype we have to ask for it 
+        
+        
+    }
+}

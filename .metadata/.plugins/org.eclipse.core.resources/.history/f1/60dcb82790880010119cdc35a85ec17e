@@ -1,0 +1,12 @@
+package Anshul;
+
+public class Laptop {
+
+	public void compile() {
+		
+		
+	}
+	
+	
+
+}

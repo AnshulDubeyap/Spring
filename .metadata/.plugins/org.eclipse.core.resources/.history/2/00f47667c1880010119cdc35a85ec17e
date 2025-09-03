@@ -1,0 +1,9 @@
+package com.Anshul.SpringApp_1;
+
+public class Alien {
+	
+	public void code() {
+		System.out.print("Coding....");
+	}
+
+}

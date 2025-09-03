@@ -1,0 +1,24 @@
+package com.Anshul.SpringApp_1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+
+    // Creating a Spring Application from Scratch
+    
+    public static void main(String[] args) {
+        // Step 1 → Add the Spring Context dependency in your POM file.
+        // Step 2 → Create an ApplicationContext object. but it is a interface, thus we have have to use ClassPathXmlApplicationContext class
+    	// Step 4 → Create a spring xml file 
+        // Step 3 → Load the configuration from spring.xml (must be in src/main/resources).
+        
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        
+        // Step 4 → Retrieve the bean using its id from spring.xml
+        Alien obj = (Alien) context.getBean("alien");
+        
+        // Step 5 → Use the bean
+        obj.code();
+    }
+}

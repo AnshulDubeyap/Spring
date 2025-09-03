@@ -1,0 +1,27 @@
+package com.Anshul.SpringApp_2;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+    	
+    	Alien obj = (Alien) context.getBean("alien");
+    	
+    	// Now what if i want to have a already defined age, like as a default age
+    	
+    	// One way of doing this is to assign the value to the age at the class, like int age = 18; as default
+    	// The Other way in spring is to use the property tag in the Spring xml file
+    	
+    	System.out.println(obj.getAge()); // output = 18
+    	
+    	// But what if the variable is a reference of another object, lets say a laptop
+    	
+    	// 1 --> Create a bean for laptop as well
+    	
+    	
+    }
+}

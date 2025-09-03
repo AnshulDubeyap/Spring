@@ -1,0 +1,10 @@
+package Anshul;
+
+import org.springframework.web.bind.annotation.RestController;
+
+// Whenever we want to create a rest resource, annotate it with rest controller
+@RestController
+public class AlienResource {
+	
+
+}

@@ -1,0 +1,28 @@
+package Anshul;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Alien {
+	
+	// Alien class will have a method code
+	
+	// Alien class will also have a object Laptop to do coding
+	
+	// Same as before, we don't want to create a object of laptop, thus in this case we will use an annotation autowired
+	
+	// by mentioning the autowired, the object of laptop will be created by spring
+	
+	@Autowired
+	Laptop lap;
+	
+	public void code() {
+		System.out.print("The code method in Alien");
+		
+		// Laptop object have a method compile
+		lap.compile();		
+		
+	}
+
+}

@@ -1,0 +1,44 @@
+package Anshul;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.service.annotation.GetExchange;
+
+// Whenever we want to create a rest resource, annotate it with rest controller
+@RestController
+public class AlienResource {
+	
+	@GetExchange("aliens")
+	public List<Alien> getAliens(){
+		
+		// Creating a list of aliens to sent to the Postman using Springs rest services
+		List<Alien> aliens = new ArrayList<>();
+		
+		Alien a1 = new Alien();
+		
+		a1.setId(101);
+		a1.setName("Anshul");
+		a1.setPoints(96);
+		
+		Alien a2 = new Alien();
+		
+		a2.setId(102);
+		a2.setName("Jimmy");
+		a2.setPoints(88);
+		
+		Alien a3 = new Alien();
+		
+		a3.setId(103);
+		a3.setName("Joel");
+		a3.setPoints(88);
+		
+		aliens.add(a1);
+		aliens.add(a3);
+		aliens.add(a2);
+		
+		return aliens;
+	}
+
+}

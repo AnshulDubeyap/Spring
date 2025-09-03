@@ -1,0 +1,11 @@
+package com.Anshul.SpringApp_2;
+
+public class Alien {
+	int age;
+
+	public void code() {
+		System.out.print("Coding....");
+
+	}
+
+}
