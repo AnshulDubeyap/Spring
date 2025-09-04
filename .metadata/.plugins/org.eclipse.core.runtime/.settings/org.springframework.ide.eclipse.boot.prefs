@@ -1,12 +1,12 @@
 eclipse.preferences.version=1
-org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=6
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=WebApp-3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=SpringMVCBoot-2
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.5.5
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Dependency Injection in Spring
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.Anshul
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=21
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=WebApp-3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=SpringMVCBoot-2
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=Anshul
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
