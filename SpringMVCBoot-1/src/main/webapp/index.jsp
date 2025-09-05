@@ -7,7 +7,7 @@
 
     <h2>Add Two Numbers</h2>
 
-    <form action="add2" method="post">
+    <form action="addition" method="post">
         Number 1: <input type="text" name="num1"><br><br>
         Number 2: <input type="text" name="num2"><br><br>
         <input type="submit" value="Add">

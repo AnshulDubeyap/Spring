@@ -57,7 +57,7 @@ public class HomeController {
 	
 	// But the above add method looks ugly, lets remove the request object and use param annotation provided by spring,
 	// Lets also reduce the code lines, and create a new method with Spring tools, that provides Model and View in place of Session 
-	@RequestMapping("add2")
+	@RequestMapping("addition")
 	public String add2(@RequestParam int num1, @RequestParam int num2, Model model) {
 		
 		// directly calculate sum using parameters

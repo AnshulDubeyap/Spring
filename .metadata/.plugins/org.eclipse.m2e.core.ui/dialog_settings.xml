@@ -6,6 +6,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Anshul Dubey\Desktop\Spring\SpringORM-1"/>
+			<item value="C:\Users\Anshul Dubey\Desktop\Spring\SpringMVC-1"/>
+			<item value="C:\Users\Anshul Dubey\Desktop\Spring\SpringJDBC-1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -29,16 +32,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Anshul"/>
+			<item value="com.Anshul.SpringMVC_1"/>
+			<item value="com.Anshul.SpringORM_1"/>
 			<item value="com.Anshul.SpringJDBC_1"/>
 			<item value="com.Anshul.SpringApp_3"/>
 			<item value="com.Anshul.SpringApp_2"/>
 			<item value="com.Anshul.SpringApp_1"/>
-			<item value="Anshul"/>
 		</list>
 		<list key="groupId">
 			<item value="com.Anshul"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMVC-1"/>
+			<item value="SpringORM-1"/>
 			<item value=" SpringJDBC-1"/>
 			<item value="SpringApp-3"/>
 			<item value="SpringApp-2"/>
