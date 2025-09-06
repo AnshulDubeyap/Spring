@@ -1,7 +1,11 @@
 package Anshul.model;
 
+
+
+@javax.persistence.Entity
 public class Alien {
 
+	@javax.persistence.Id
 	private int aid;
 	private String aname;
 	

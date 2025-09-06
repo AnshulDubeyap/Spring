@@ -32,6 +32,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Anshul.SpringORM_2"/>
 			<item value="Anshul"/>
 			<item value="com.Anshul.SpringMVC_1"/>
 			<item value="com.Anshul.SpringORM_1"/>
@@ -44,6 +45,7 @@
 			<item value="com.Anshul"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringORM-2"/>
 			<item value="SpringMVC-1"/>
 			<item value="SpringORM-1"/>
 			<item value=" SpringJDBC-1"/>
